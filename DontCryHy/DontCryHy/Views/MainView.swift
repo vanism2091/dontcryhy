@@ -8,8 +8,13 @@
 import SwiftUI
 
 struct MainView: View {
+    @FetchRequest(
+        sortDescriptors: [NSSortDescriptor(keyPath: \CycleLog.date, ascending: false)],
+        animation: .default)
+    private var cycleLogs: FetchedResults<CycleLog>
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        PeriodListView(items:cycleLogs)
     }
 }
 

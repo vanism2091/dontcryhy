@@ -22,3 +22,19 @@ enum FlowLevelType: Int, CaseIterable, Identifiable {
     
     var id: Self { self }
 }
+
+
+enum PadTypeEnum: Int, CaseIterable, Identifiable {
+    case panla = 0, small, mid, big, over
+    
+    var description: String {
+        switch self {
+        case .panla: return "팬라"
+        case .small: return "소형"
+        case .mid: return "중형"
+        case .big: return "대형"
+        case .over: return "오버"
+        }
+    }
+    var id: Self { self }
+}
