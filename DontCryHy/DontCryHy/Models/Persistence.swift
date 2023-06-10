@@ -17,6 +17,13 @@ struct PersistenceController {
             let newItem = Item(context: viewContext)
             newItem.timestamp = Date()
         }
+        for i in 0..<5 {
+            let newCycleLog = CycleLog(context: viewContext)
+            newCycleLog.date = Date()
+            newCycleLog.flowLevel = Int64(i)
+            newCycleLog.padType = Int64(4 - i)
+        }
+        
         do {
             try viewContext.save()
         } catch {
