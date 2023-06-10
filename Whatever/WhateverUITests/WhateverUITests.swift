@@ -1,13 +1,13 @@
 //
-//  DontCryHyUITests.swift
-//  DontCryHyUITests
+//  WhateverUITests.swift
+//  WhateverUITests
 //
 //  Created by sei on 2023/06/07.
 //
 
 import XCTest
 
-final class DontCryHyUITests: XCTestCase {
+final class WhateverUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

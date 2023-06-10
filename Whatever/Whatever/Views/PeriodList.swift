@@ -1,6 +1,6 @@
 //
 //  PeriodList.swift
-//  DontCryHy
+//  Whatever
 //
 //  Created by sei on 2023/06/07.
 //

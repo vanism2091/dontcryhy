@@ -1,14 +1,14 @@
 //
-//  DontCryHyTests.swift
-//  DontCryHyTests
+//  WhateverTests.swift
+//  WhateverTests
 //
 //  Created by sei on 2023/06/07.
 //
 
 import XCTest
-@testable import DontCryHy
+@testable import Whatever
 
-final class DontCryHyTests: XCTestCase {
+final class WhateverTests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

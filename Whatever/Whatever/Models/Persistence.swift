@@ -1,6 +1,6 @@
 //
 //  Persistence.swift
-//  DontCryHy
+//  Whatever
 //
 //  Created by sei on 2023/06/07.
 //
@@ -38,7 +38,7 @@ struct PersistenceController {
     let container: NSPersistentContainer
 
     init(inMemory: Bool = false) {
-        container = NSPersistentContainer(name: "DontCryHy")
+        container = NSPersistentContainer(name: "Whatever")
         if inMemory {
             container.persistentStoreDescriptions.first!.url = URL(fileURLWithPath: "/dev/null")
         }

@@ -1,13 +1,13 @@
 //
-//  DontCryHyUITestsLaunchTests.swift
-//  DontCryHyUITests
+//  WhateverUITestsLaunchTests.swift
+//  WhateverUITests
 //
 //  Created by sei on 2023/06/07.
 //
 
 import XCTest
 
-final class DontCryHyUITestsLaunchTests: XCTestCase {
+final class WhateverUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true
